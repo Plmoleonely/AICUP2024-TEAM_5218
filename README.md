@@ -213,4 +213,5 @@ python3 fast_reid/tools/train_net.py --config-file fast_reid/configs/AICUP/bagtr
 ```
 bash tools/track_all_timestamps.sh --weights "yolov7-d6/best.pt" "yolov7-w6/best.pt" --source-dir "AI_CUP_MCMOT_dataset/train/images" --device "0" --fast-reid-config "fast_reid/configs/AICUP/bagtricks_R50-ibn.yml" --fast-reid-weights "logs/AICUP/bagtricks_R50-ibn/model_0054.pth"
 ```
-   
+## Result
+![image](https://github.com/Plmoleonely/AICUP2024-TEAM_5218/blob/main/image.png)
