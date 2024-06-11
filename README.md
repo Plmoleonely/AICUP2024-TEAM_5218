@@ -29,7 +29,7 @@ Download the pre-trained model from [NAFNet-REDS-width64.pth](https://drive.goog
 Add infermany.py in NAFNET file.   
 Modify infermany.py to fit input output path u want. (We used it on all the datasets.)   
 ```
-python basicsr/demo.py -opt options/test/REDS/NAFNet-width64.yml
+python infermany.py -opt options/test/REDS/NAFNet-width64.yml
 ```
 ### Convert to day-light images using [GSAD](https://github.com/jinnh/GSAD)   
 ```
